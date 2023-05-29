@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gfont {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.nav .nav-item .nav-link {
+    color: #000000;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-green {
+    background-color: #475b52;
+}
+.f-green{
+    color: #475b52;
+}
+.bg-yellow {
+    background-color: #e1b352;
+}
+
+.vlp {
+    position: relative;
+}
+
+.vl {
+    height: 70%;
+    width: 3px;
+    position: absolute;
+    left: 10%;
+    background-color: white;
+    bottom: 0;
+}
+
+.vl-point {
+    height: 5px;
+    width: 5px !important;
+    position: absolute;
+    left: 10%;
+    background-color: white;
+}
+
+.prj {
+    position: absolute;
+    height:20vh;
+    /* background-image: url('BB.jpg'); */
+    background-size: cover;
+    top: 15%;
+    left: 10%;
+    width: 60%;
+    z-index: 2;
+}
+
+.social {
+    position: fixed;
+    bottom: 0;
+    left: 1%;
+    height: 45%;
+    width: 50px;
+    background: transparent;
+    color: white;
+    z-index: 1;
+}
+
+i {
+    font-size: 26px;
+}
+
+.prj2 {
+    position: absolute;
+    height:80%;
+    /* background-image: url('BB.jpg'); */
+    background-size: cover;
+    top: 15%;
+    right: 10%;
+    width: 60%;
+    z-index: 2;
+}
+.prj-container
+{
+    /* height: 400px; */
+    position:relative;
+}
+.prj-block
+{
+    height: 20vh;
+    width: 60%;
+    z-index: 0;
+    position:relative;
+    left: 20%;
+    top: 0%;
+    background-color: white;
+}
+.prj-block2
+{
+    height:20vh;
+    width: 60%;
+    z-index: 0;
+    position:relative;
+    left: 20%;
+    top: 0%;
+    background-color: white;
+}
+.bdiv {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    border: 2px solid white;
+    height: 50%;
+    width: 25%;
+}
+
+.img {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    background-image: url('.jpg');
+    background-size: cover;
+    height: 50%;
+    width: 25%;
+}
+.big-font
+{
+    font-size: 56px;
+}
+.sm-contact
+{
+    background-color: #475b52;
+    /* position: absolute;
+    left: 0; */
+}
+.cr-r
+{
+    position: relative;
+}
+.cr
+{
+    position: absolute;
+    bottom: 0%;
+    /* right: 50%; */
+}
+.email
+{
+    position: absolute;
+    bottom: 60%;
+    /* color: white; */
+    right: -10%;
+    transform: rotate(90deg);
+}
+.email-line
+{
+    position: absolute;
+    width: 3px;
+    height: 40%;
+    background-color: #475b52;
+    right: 0%;
+    bottom: 0;
+}
+.v-100
+{
+    height: 100vh;
+}
+.p-cnt{
+    padding: 30px;
+}
+@media screen and (max-width: 576px) {
+    .vh-rp{
+        height: auto !important;
+    }
+    .v-100
+    {
+        height: auto !important;
+    }
+    .prj-container
+    {
+        display: none;
+    }
+    .social {
+        position: fixed;
+        bottom: 5%;
+        left: 0%;
+    }
+    .bdiv {
+        position: absolute;
+        width: 60%;
+        top: 30%;
+        left: 15%;
+    }
+    .img {
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        width: 60%;
+    }
+  }
